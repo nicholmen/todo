@@ -15,6 +15,7 @@ import React, { Component } from "react";
 
 // this component has no internal state, everything about it is determined by what the parent says it should be. Has no internal state
 // instead of creating a class, create a functional component. Only accepts props
+
 const SingleTodo = props => {
   return (
     <li>{props.todo}<button onClick={props.delete}>X</button></li>    
